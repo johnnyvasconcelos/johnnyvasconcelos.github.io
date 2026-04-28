@@ -1,52 +1,118 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jova Labs</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        background: linear-gradient(135deg, #f7d9a8, #f0b27a);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        color: #4c2e1c;
-        text-align: center;
-      }
-      h1 {
-        font-size: 2.2rem;
-        margin-bottom: 1.5rem;
-        font-weight: bold;
-      }
-      .btn {
-        background-color: #c9522b;
-        color: #fff;
-        padding: 14px 28px;
-        font-size: 1rem;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: background 0.3s ease;
-        text-decoration: none;
-        display: inline-block;
-      }
-      .btn:hover {
-        background-color: #a63f20;
-      }
-    </style>
+    <meta
+      name="description"
+      content="Desenvolvedor Brasileiro Front e Back-End com experiência internacional. JavaScript, React, MySQL. Confira meus projetos!"
+    />
+    <meta
+      name="keywords"
+      content="desenvolvedor front-end, desenvolvedor back-end, desenvolvedor front e back-end, desenvolvedor junior, desenvolvedor pleno, programador back-end, programador front-end"
+    />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <script src="./assets/scripts/main.js" defer></script>
+    <title>Johnny Vasconcelos - Desenvolvedor Front e Backend</title>
   </head>
   <body>
-    <h1>Conversor Culinário de Medidas</h1>
-    <a
-      class="btn"
-      href="https://play.google.com/store/apps/details?id=com.johnnym01.appconversormedidas"
-      target="_blank"
-    >
-      Baixar na Play Store
-    </a>
+    <div class="wrapper">
+      <!-- header -->
+      <header id="header">
+        <!-- navbar -->
+        <nav class="menu">
+          <div class="container">
+            <div class="menu__area">
+              <a href="./index.html" class="menu__logo"
+                ><img
+                  src="./assets/images/logo.webp"
+                  alt="logo johnny vasconcelos front e back-end developer"
+                  class="logo"
+              /></a>
+              <ul class="menu__items">
+                <li class="menu__item">
+                  <a href="#home" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#sobre" class="menu__link">Sobre</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#portfolio" class="menu__link">Portfólio</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#tecnologias" class="menu__link">Tecnologias</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#contato" class="menu__link">Contato</a>
+                </li>
+              </ul>
+            </div>
+            <div class="dark-mode">
+              <img
+                src="./assets/icons/moon.svg"
+                alt="dark mode svg"
+                class="moon"
+              />
+            </div>
+          </div>
+        </nav>
+        <div class="main__header" id="home">
+          <div class="container">
+            <div class="main__title__area--1">
+              <h1>
+                Desenvolvedor Front e Back-End focado em
+                <span class="thin">performance e SEO</span>
+              </h1>
+              <div class="header__buttons">
+                <a href="#" class="header__btn"
+                  ><span>Contato</span>
+                  <span class="icon"
+                    ><img
+                      class="header__icon"
+                      src="./assets/icons/support.svg"
+                      alt="contato johnny vasconcelos" /></span
+                ></a>
+                <a href="#" class="header__btn"
+                  ><span>Ver Portfólio</span>
+                  <span class="icon"
+                    ><img
+                      class="header__icon"
+                      src="./assets/icons/code.svg"
+                      alt="portfólio johnny vasconcelos" /></span
+                ></a>
+              </div>
+            </div>
+            <div class="main__title__area--2">
+              <div class="main__social">
+                <a href="#" class="social__link"
+                  ><img
+                    class="social__icon"
+                    src="./assets/icons/linkedin.svg"
+                    alt="linkedin"
+                /></a>
+                <a href="#" class="social__link"
+                  ><img
+                    class="social__icon"
+                    src="./assets/icons/github.svg"
+                    alt="github"
+                /></a>
+                <a href="#" class="social__link"
+                  ><img
+                    class="social__icon"
+                    src="./assets/icons/whatsapp.svg"
+                    alt="whatsapp"
+                /></a>
+                <a href="#" class="social__link"
+                  ><img
+                    class="social__icon"
+                    src="./assets/icons/email.svg"
+                    alt="email"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
   </body>
 </html>
