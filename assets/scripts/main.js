@@ -1,9 +1,11 @@
 {
+  // dark mode
   const darkBtn = document.querySelector(".menu__dark");
-  const letters = document.querySelector(".thin");
   darkBtn.addEventListener("click", () => {
     darkBtn.classList.toggle("white-mode");
   });
+  // h1 typing
+  const letters = document.querySelector(".thin");
   const phrase = "performance e SEO";
   const phraseArray = phrase.split("");
   letters.textContent = "";
@@ -24,4 +26,10 @@
       pipe.classList.toggle("opacity");
     }, 800);
   }
+  // mobile menu
+  const mobileBtn = document.querySelector(".menu__button");
+  const mobileMenu = document.querySelector(".menu__mobile");
+  mobileBtn.addEventListener("click", () => {
+    mobileMenu.classList.add("show");
+  });
 }
