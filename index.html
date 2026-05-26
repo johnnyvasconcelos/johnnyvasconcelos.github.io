@@ -18,16 +18,16 @@
   <body>
     <div class="wrapper">
       <!-- header -->
-      <header id="header">
+      <header id="head">
         <!-- navbar -->
         <nav class="menu">
           <div class="container">
-            <div class="menu__area">
+            <div class="menu__main">
               <a href="./index.html" class="menu__logo"
                 ><img
                   src="./assets/images/logo.webp"
                   alt="logo johnny vasconcelos front e back-end developer"
-                  class="logo"
+                  class="menu__image"
               /></a>
               <ul class="menu__items">
                 <li class="menu__item">
@@ -40,72 +40,95 @@
                   <a href="#portfolio" class="menu__link">Portfólio</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#tecnologias" class="menu__link">Tecnologias</a>
+                  <a href="#contato" class="menu__link">Contato</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#contato" class="menu__link">Contato</a>
+                  <a href="#idioma" class="menu__link"
+                    >Idioma<img
+                      src="./assets/icons/caret-white.svg"
+                      class="caret"
+                      alt="caret arrow"
+                  /></a>
+                  <ul class="menu__submenu">
+                    <li>
+                      <a href="./index.html"
+                        ><img
+                          src="./assets/images/eng.webp"
+                          alt="america flag"
+                        />ENG</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./index.html"
+                        ><img
+                          src="./assets/images/ptbr.webp"
+                          alt="brazil flag"
+                        />PTBR</a
+                      >
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
-            <div class="dark-mode">
+            <div class="menu__dark">
               <img
                 src="./assets/icons/moon.svg"
                 alt="dark mode svg"
-                class="moon"
+                class="menu__moon"
               />
             </div>
           </div>
         </nav>
-        <div class="main__header" id="home">
+        <div class="main-header" id="home">
           <div class="container">
-            <div class="main__title__area--1">
+            <div class="main-header__title">
               <h1>
                 Desenvolvedor Front e Back-End focado em
                 <span class="thin">performance e SEO</span>
               </h1>
-              <div class="header__buttons">
-                <a href="#" class="header__btn"
+              <div class="main-header__buttons">
+                <a href="#" class="main-header__btn"
                   ><span>Contato</span>
                   <span class="icon"
                     ><img
-                      class="header__icon"
+                      class="main-header__icon"
                       src="./assets/icons/support.svg"
                       alt="contato johnny vasconcelos" /></span
                 ></a>
-                <a href="#" class="header__btn"
-                  ><span>Ver Portfólio</span>
+                <a href="#" class="main-header__btn"
+                  ><span>Baixar CV</span>
                   <span class="icon"
                     ><img
-                      class="header__icon"
+                      class="main-header__icon"
                       src="./assets/icons/code.svg"
                       alt="portfólio johnny vasconcelos" /></span
                 ></a>
               </div>
             </div>
-            <div class="main__title__area--2">
-              <div class="main__social">
-                <a href="#" class="social__link"
+            <div class="main-header__social">
+              <div class="main-header__socials">
+                <a href="#" class="main-header__social-link"
                   ><img
-                    class="social__icon"
+                    class="main-header__social-icon"
                     src="./assets/icons/linkedin.svg"
                     alt="linkedin"
                 /></a>
-                <a href="#" class="social__link"
+                <a href="#" class="main-header__social-link"
                   ><img
-                    class="social__icon"
+                    class="main-header__social-icon"
                     src="./assets/icons/github.svg"
                     alt="github"
                 /></a>
-                <a href="#" class="social__link"
+                <a href="#" class="main-header__social-link"
                   ><img
-                    class="social__icon"
+                    class="main-header__social-icon"
                     src="./assets/icons/whatsapp.svg"
                     alt="whatsapp"
                 /></a>
-                <a href="#" class="social__link"
+                <a href="#" class="main-header__social-link"
                   ><img
-                    class="social__icon"
-                    src="./assets/icons/email.svg"
+                    class="main-header__social-icon"
+                    src="./assets/icons/envelope.svg"
                     alt="email"
                 /></a>
               </div>
@@ -113,6 +136,56 @@
           </div>
         </div>
       </header>
+      <!-- what I do -->
+      <section class="section" id="i-do">
+        <div class="container column">
+          <h2 class="section__title">Especialidades</h2>
+          <div class="section__cards">
+            <article class="section__card">
+              <img
+                class="section__icon"
+                src="./assets/icons/ux.svg"
+                alt="UI/UX Design e Web Design"
+              />
+              <h3>UI/UX Design</h3>
+              <ul class="section__list">
+                <li>⇛ Prototipagem Alta Fidelidade (Figma)</li>
+                <li>⇛ Identidade Visual e Branding</li>
+                <li>⇛ Usabilidade e Conversão</li>
+                <li>⇛ Design Systems</li>
+              </ul>
+            </article>
+            <article class="section__card">
+              <img
+                class="section__icon"
+                src="./assets/icons/developer.svg"
+                alt="Front-End & Back-End Development"
+              />
+              <h3>Development</h3>
+              <ul class="section__list">
+                <li>⇛ Front-End com Vue.js e React</li>
+                <li>⇛ Bancos de dados relacionais</li>
+                <li>⇛ Código escalável e padronizado</li>
+                <li>⇛ APIs e back-end em Node.js</li>
+              </ul>
+            </article>
+            <article class="section__card">
+              <img
+                class="section__icon"
+                src="./assets/icons/search.svg"
+                alt="profissional em SEO (search engine optization)"
+              />
+              <h3>SEO</h3>
+              <ul class="section__list">
+                <li>⇛ Otimização de carregamento</li>
+                <li>⇛ SEO On-Page e HTML5 semântico</li>
+                <li>⇛ Práticas de acessibilidade web</li>
+                <li>⇛ Deploy e configuração de Search Console</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
