@@ -32,4 +32,17 @@
   mobileBtn.addEventListener("click", () => {
     mobileMenu.classList.add("show");
   });
+  // portfolio modal
+  const modalBtn = document.querySelectorAll(".open-modal");
+  const modal = document.querySelectorAll(".modal");
+  const background = document.querySelector(".background");
+  for (let i = 0; i < modal.length; i++) {
+    modalBtn[i].addEventListener("click", () => {
+      for (let a = 0; a < modal.length; a++) {
+        modal[a].classList.remove("show-modal");
+      }
+      modal[i].classList.add("show-modal");
+      background.classList.add("show-background");
+    });
+  }
 }
