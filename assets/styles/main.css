@@ -373,13 +373,19 @@ h1 {
   border: 1px solid var(--border);
   background-color: var(--dark);
   padding: 2.5em;
-  border-radius: 3px 10px;
+  border-radius: 3px 25px;
   color: var(--light);
   position: relative;
   overflow: hidden;
   transition: var(--transition);
   width: 33.33%;
   cursor: pointer;
+}
+.section__area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 .section__icon {
   max-width: 35px;
@@ -396,6 +402,7 @@ h1 {
 }
 .section__card:hover {
   background-color: var(--display);
+  transform: scale(105%);
   color: var(--dark);
 }
 .section__card:hover .section__list {
@@ -403,6 +410,74 @@ h1 {
 }
 .section__card:hover .section__icon {
   filter: invert(1);
+}
+.section__card > p {
+  margin-top: 15px;
+}
+.emphasis {
+  color: #30c2be;
+  display: block;
+  font-size: 14px;
+}
+.section__image {
+  border-radius: 3px 15px;
+  width: 100%;
+  margin-bottom: 5px;
+  display: none;
+}
+.section__mark {
+  margin-right: 10px;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.section__mark::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  transition: var(--transition);
+}
+.section__card:hover .section__mark::before {
+  background-color: #543f71;
+}
+.section__mark.html::before {
+  background-color: #f43e1c;
+}
+.section__mark.css::before,
+.section__mark.react::before {
+  background-color: #5992f5;
+}
+.section__mark.javascript::before {
+  background-color: #f2d838;
+}
+.section__mark.vue::before,
+.section__mark.vite::before {
+  background-color: #4ecf75;
+}
+.section__mark.ui::before,
+.section__mark.php::before,
+.section__mark.expo::before {
+  background-color: #9d63f0;
+}
+.section__mark.library::before {
+  background-color: #f058a7;
+}
+.section__mark.cdn::before,
+.section__mark.mysql::before {
+  background-color: #58c2f0;
+}
+.section__mark.npm::before,
+.section__mark.express::before {
+  background-color: #f06058;
+}
+.section__mark.seo::before,
+.section__mark.node::before {
+  background-color: #848484;
+}
+.section__mark.react-native::before {
+  background-color: #91f14c;
 }
 /* responsive settings */
 @media (max-width: 1100px) {
@@ -458,6 +533,9 @@ h1 {
   }
 }
 @media (max-width: 480px) {
+  .container {
+    padding: 0;
+  }
   .section__card {
     padding: 25px 20px;
   }
