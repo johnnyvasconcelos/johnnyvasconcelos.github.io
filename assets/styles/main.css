@@ -51,6 +51,9 @@ body {
   background-color: var(--display);
   padding: var(--base);
 }
+body.overflow {
+  overflow: hidden;
+}
 .wrapper {
   background-color: var(--dark);
   border-radius: 10px 30px;
@@ -690,6 +693,8 @@ h1 {
   }
   .modal {
     width: 90%;
+    max-height: 80svh;
+    overflow-y: auto;
   }
   .modal__container h2 {
     max-width: 80%;
