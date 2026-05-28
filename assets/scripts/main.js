@@ -36,6 +36,7 @@
   const modalBtn = document.querySelectorAll(".open-modal");
   const modal = document.querySelectorAll(".modal");
   const background = document.querySelector(".background");
+  const closeModal = document.querySelectorAll(".close-modal");
   for (let i = 0; i < modal.length; i++) {
     modalBtn[i].addEventListener("click", () => {
       for (let a = 0; a < modal.length; a++) {
@@ -44,5 +45,18 @@
       modal[i].classList.add("show-modal");
       background.classList.add("show-background");
     });
+    closeModal[i].addEventListener("click", () => {
+      modal[i].classList.remove("show-modal");
+      background.classList.remove("show-background");
+    });
   }
+  document.addEventListener("click", (ev) => {
+    const event = ev.target;
+    if (event.classList.contains("background")) {
+      for (let i = 0; i < modal.length; i++) {
+        modal[i].classList.remove("show-modal");
+        background.classList.remove("show-background");
+      }
+    }
+  });
 }
