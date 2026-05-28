@@ -541,7 +541,7 @@ h1 {
   background-color: white;
   overflow: hidden;
 }
-.modal .modal-container > header {
+.modal .modal__container > header {
   padding: var(--base);
   background-color: var(--dark);
 }
@@ -687,6 +687,18 @@ h1 {
   }
   .section__card {
     width: 100%;
+  }
+  .modal {
+    width: 90%;
+  }
+  .modal__container h2 {
+    max-width: 80%;
+  }
+  .modal__body {
+    flex-direction: column;
+  }
+  .modal__text h3 {
+    margin-top: 30px;
   }
 }
 @media (max-width: 767px) {
