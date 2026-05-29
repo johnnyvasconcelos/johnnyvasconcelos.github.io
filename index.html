@@ -23,18 +23,78 @@
   <body>
     <div class="wrapper">
       <!-- header -->
-      <header id="head">
-        <!-- navbar -->
-        <nav class="menu">
-          <div class="container">
-            <div class="menu__main">
-              <a href="./index.html" class="menu__logo"
-                ><img
-                  src="./assets/images/logo.webp"
-                  alt="logo johnny vasconcelos front e back-end developer"
-                  class="menu__image"
-              /></a>
-              <ul class="menu__items">
+      <div class="wrapper__content">
+        <header id="head">
+          <!-- navbar -->
+          <nav class="menu">
+            <div class="container">
+              <div class="menu__main">
+                <a href="./index.html" class="menu__logo"
+                  ><img
+                    src="./assets/images/logo.webp"
+                    alt="logo johnny vasconcelos front e back-end developer"
+                    class="menu__image"
+                /></a>
+                <ul class="menu__items">
+                  <li class="menu__item">
+                    <a href="#home" class="menu__link">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#sobre" class="menu__link">Sobre</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#portfolio" class="menu__link">Portfólio</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#contato" class="menu__link">Contato</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#idioma" class="menu__link"
+                      >Idioma<img
+                        src="./assets/icons/caret-white.svg"
+                        class="caret"
+                        alt="caret arrow"
+                    /></a>
+                    <ul class="menu__submenu">
+                      <li>
+                        <a href="./index.html"
+                          ><img
+                            src="./assets/images/eng.webp"
+                            alt="america flag"
+                          />ENG</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./index.html"
+                          ><img
+                            src="./assets/images/ptbr.webp"
+                            alt="brazil flag"
+                          />PTBR</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu__dark">
+                <img
+                  src="./assets/icons/moon.svg"
+                  alt="dark mode svg"
+                  class="menu__moon"
+                />
+              </div>
+              <div class="menu__button">
+                <img
+                  src="./assets/icons/menu.svg"
+                  alt="bars menu svg"
+                  class="menu__bars"
+                />
+              </div>
+            </div>
+          </nav>
+          <nav class="menu__mobile">
+            <div class="container">
+              <ul>
                 <li class="menu__item">
                   <a href="#home" class="menu__link">Home</a>
                 </li>
@@ -75,615 +135,675 @@
                 </li>
               </ul>
             </div>
-            <div class="menu__dark">
-              <img
-                src="./assets/icons/moon.svg"
-                alt="dark mode svg"
-                class="menu__moon"
-              />
-            </div>
-            <div class="menu__button">
-              <img
-                src="./assets/icons/menu.svg"
-                alt="bars menu svg"
-                class="menu__bars"
-              />
+          </nav>
+          <div class="main-header" id="home">
+            <div class="container">
+              <div class="main-header__title">
+                <h1>
+                  Desenvolvedor Front e Back-End focado em
+                  <span class="thin">performance e SEO</span>
+                </h1>
+                <div class="main-header__buttons">
+                  <a href="#" class="main-header__btn"
+                    ><span>Contato</span>
+                    <span class="icon"
+                      ><img
+                        class="main-header__icon"
+                        src="./assets/icons/support.svg"
+                        alt="contato johnny vasconcelos" /></span
+                  ></a>
+                  <a href="#" class="main-header__btn"
+                    ><span>Baixar CV</span>
+                    <span class="icon"
+                      ><imgF
+                        class="main-header__icon"
+                        src="./assets/icons/code.svg"
+                        alt="portfólio johnny vasconcelos" /></span
+                  ></a>
+                </div>
+              </div>
+              <div class="main-header__social">
+                <div class="main-header__socials">
+                  <a href="#" class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="./assets/icons/linkedin.svg"
+                      alt="linkedin"
+                  /></a>
+                  <a href="#" class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="./assets/icons/github.svg"
+                      alt="github"
+                  /></a>
+                  <a href="#" class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="./assets/icons/whatsapp.svg"
+                      alt="whatsapp"
+                  /></a>
+                  <a href="#" class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="./assets/icons/envelope.svg"
+                      alt="email"
+                  /></a>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-        <nav class="menu__mobile">
-          <div class="container">
-            <ul>
-              <li class="menu__item">
-                <a href="#home" class="menu__link">Home</a>
-              </li>
-              <li class="menu__item">
-                <a href="#sobre" class="menu__link">Sobre</a>
-              </li>
-              <li class="menu__item">
-                <a href="#portfolio" class="menu__link">Portfólio</a>
-              </li>
-              <li class="menu__item">
-                <a href="#contato" class="menu__link">Contato</a>
-              </li>
-              <li class="menu__item">
-                <a href="#idioma" class="menu__link"
-                  >Idioma<img
-                    src="./assets/icons/caret-white.svg"
-                    class="caret"
-                    alt="caret arrow"
-                /></a>
-                <ul class="menu__submenu">
-                  <li>
-                    <a href="./index.html"
-                      ><img
-                        src="./assets/images/eng.webp"
-                        alt="america flag"
-                      />ENG</a
+        </header>
+      </div>
+      <!-- who I am -->
+      <div class="wrapper__content">
+        <section class="section" id="about">
+          <div class="container column">
+            <h2 class="section__title">Sobre Mim</h2>
+            <div class="section__areas">
+              <div class="section__text">
+                <h3>
+                  Sou <span>Johnny Vasconcelos</span> Desenvolvedor Full-Stack
+                </h3>
+                <p>
+                  Atuo como desenvolvedor web com experiência no mercado
+                  internacional, tendo entregue projetos para mais de 8 países.
+                  Gerencio o ciclo completo de desenvolvimento, (Design, Front,
+                  Back-End e SEO) e estou disponível tanto para contratos de
+                  desenvolvimento freelancer quanto para oportunidades de
+                  contratação em regime de trabalho.
+                </p>
+              </div>
+              <div class="section__info">
+                <ul>
+                  <li><b>Nome:</b> Johnny Vasconcelos</li>
+                  <li title="jvasconcelosbittencourt@gmail.com">
+                    <b>Email:</b>
+                    <a href="mailto:jvasconcelosbittencourt@gmail.com"
+                      >j(...)court@gmail.com</a
                     >
                   </li>
-                  <li>
-                    <a href="./index.html"
-                      ><img
-                        src="./assets/images/ptbr.webp"
-                        alt="brazil flag"
-                      />PTBR</a
-                    >
-                  </li>
+                  <li><b>Idade:</b> 30</li>
+                  <li><b>Localização:</b> São Paulo, Brasil</li>
                 </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="main-header" id="home">
-          <div class="container">
-            <div class="main-header__title">
-              <h1>
-                Desenvolvedor Front e Back-End focado em
-                <span class="thin">performance e SEO</span>
-              </h1>
-              <div class="main-header__buttons">
-                <a href="#" class="main-header__btn"
-                  ><span>Contato</span>
-                  <span class="icon"
-                    ><img
-                      class="main-header__icon"
-                      src="./assets/icons/support.svg"
-                      alt="contato johnny vasconcelos" /></span
-                ></a>
-                <a href="#" class="main-header__btn"
-                  ><span>Baixar CV</span>
-                  <span class="icon"
-                    ><img
-                      class="main-header__icon"
-                      src="./assets/icons/code.svg"
-                      alt="portfólio johnny vasconcelos" /></span
-                ></a>
+                <a href="#" class="section__button"><img
+                        class="main-header__icon"
+                        src="./assets/icons/code.svg"
+                        alt="portfólio johnny vasconcelos" /></span
+                  ><span>Baixar CV</span></a>
               </div>
             </div>
-            <div class="main-header__social">
-              <div class="main-header__socials">
-                <a href="#" class="main-header__social-link"
-                  ><img
-                    class="main-header__social-icon"
-                    src="./assets/icons/linkedin.svg"
-                    alt="linkedin"
-                /></a>
-                <a href="#" class="main-header__social-link"
-                  ><img
-                    class="main-header__social-icon"
-                    src="./assets/icons/github.svg"
-                    alt="github"
-                /></a>
-                <a href="#" class="main-header__social-link"
-                  ><img
-                    class="main-header__social-icon"
-                    src="./assets/icons/whatsapp.svg"
-                    alt="whatsapp"
-                /></a>
-                <a href="#" class="main-header__social-link"
-                  ><img
-                    class="main-header__social-icon"
-                    src="./assets/icons/envelope.svg"
-                    alt="email"
-                /></a>
+            <div class="section__scores">
+              <div class="section__score">
+                <span class="section__number">10+</span>
+                <p>Years Experiance</p>
+              </div>
+              <div class="section__score">
+                <span class="section__number">250+</span>
+                <p>Happy Clients</p>
+              </div>
+              <div class="section__score">
+                <span class="section__number">650+</span>
+                <p>Projects Done</p>
+              </div>
+              <div class="section__score">
+                <span class="section__number">38</span>
+                <p>Get Awards</p>
               </div>
             </div>
           </div>
-        </div>
-      </header>
-      <!-- what I do -->
-      <section class="section" id="i-do">
-        <div class="container column">
-          <h2 class="section__title">Especialidades</h2>
-          <div class="section__cards">
-            <article class="section__card">
-              <img
-                class="section__icon"
-                src="./assets/icons/ux.svg"
-                alt="UI/UX Design e Web Design"
-              />
-              <h3 class="color">UI/UX Design</h3>
-              <ul class="section__list">
-                <li>⇛ Prototipagem Alta Fidelidade (Figma)</li>
-                <li>⇛ Identidade Visual e Branding</li>
-                <li>⇛ Usabilidade e Conversão</li>
-                <li>⇛ Design Systems</li>
-              </ul>
-            </article>
-            <article class="section__card">
-              <img
-                class="section__icon"
-                src="./assets/icons/developer.svg"
-                alt="Front-End & Back-End Development"
-              />
-              <h3 class="color">Development</h3>
-              <ul class="section__list">
-                <li>⇛ Front-End com Vue.js e React</li>
-                <li>⇛ Bancos de dados relacionais</li>
-                <li>⇛ Código escalável e padronizado</li>
-                <li>⇛ APIs e back-end em Node.js</li>
-              </ul>
-            </article>
-            <article class="section__card">
-              <img
-                class="section__icon"
-                src="./assets/icons/search.svg"
-                alt="profissional em SEO (search engine optization)"
-              />
-              <h3 class="color">SEO</h3>
-              <ul class="section__list">
-                <li>⇛ Otimização de carregamento</li>
-                <li>⇛ SEO On-Page e HTML5 semântico</li>
-                <li>⇛ Práticas de acessibilidade web</li>
-                <li>⇛ Deploy e configuração de Search Console</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- portfolio -->
-      <section class="section" id="portfolio">
-        <div class="container column">
-          <h2 class="section__title">Projetos em Destaque</h2>
-          <div class="section__area">
-            <div class="section__cards">
-              <article class="section__card open-modal">
-                <img
-                  src="./assets/images/portfolio-1.jpg"
-                  alt="portfolio"
-                  class="section__image"
-                />
-                <h3>
-                  Sistema de Aluguel de Cruzeiros, Turquia
-                  <span class="emphasis">Zoe Yacht</span>
-                </h3>
-                <p>
-                  <span class="section__mark html">HTML</span>
-                  <span class="section__mark css">CSS</span>
-                  <span class="section__mark bootstrap">BootStrap 5</span>
-                  <span class="section__mark javascript">JavaScript</span>
-                  <span class="section__mark library">Moment JS</span>
-                </p>
-              </article>
-              <article class="section__card open-modal">
-                <img
-                  src="./assets/images/portfolio-1.jpg"
-                  alt="portfolio"
-                  class="section__image"
-                />
-                <h3>
-                  Biblioteca Reutilizável Date Picker
-                  <span class="emphasis">Datephy</span>
-                </h3>
-                <p>
-                  <span class="section__mark javascript">JavaScript</span>
-                  <span class="section__mark vue">Vue.js 3</span>
-                  <span class="section__mark cdn">CDN</span>
-                  <span class="section__mark npm">NPM Package</span>
-                </p>
-              </article>
-              <article class="section__card open-modal">
-                <img
-                  src="./assets/images/portfolio-1.jpg"
-                  alt="portfolio"
-                  class="section__image"
-                />
-                <h3>
-                  Aplicativo Android de Criação de Fichas
-                  <span class="emphasis">D&D 5e</span>
-                </h3>
-                <p>
-                  <span class="section__mark react-native">React Native</span>
-                  <span class="section__mark expo">Expo</span>
-                  <span class="section__mark mysql">MySQL</span>
-                </p>
-              </article>
+      <div class="wrapper__content">
+        <section class="section" id="portfolio">
+          <div class="container column">
+            <h2 class="section__title">Projetos em Destaque</h2>
+            <div class="section__area">
+              <div class="section__cards">
+                <article class="section__card open-modal">
+                  <img
+                    src="./assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Sistema de Aluguel de Cruzeiros, Turquia
+                    <span class="emphasis">Zoe Yacht</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark html">HTML</span>
+                    <span class="section__mark css">CSS</span>
+                    <span class="section__mark bootstrap">BootStrap 5</span>
+                    <span class="section__mark javascript">JavaScript</span>
+                    <span class="section__mark library">Moment JS</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="./assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Biblioteca Reutilizável Date Picker
+                    <span class="emphasis">Datephy</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark javascript">JavaScript</span>
+                    <span class="section__mark vue">Vue.js 3</span>
+                    <span class="section__mark cdn">CDN</span>
+                    <span class="section__mark npm">NPM Package</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="./assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Aplicativo Android de Criação de Fichas
+                    <span class="emphasis">D&D 5e</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark react-native">React Native</span>
+                    <span class="section__mark expo">Expo</span>
+                    <span class="section__mark mysql">MySQL</span>
+                  </p>
+                </article>
+              </div>
+              <div class="section__cards">
+                <article class="section__card open-modal">
+                  <img
+                    src="./assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Ficha Vermelha Auto Calculável
+                    <span class="emphasis">D&D 5e</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark javascript">JavaScript</span>
+                    <span class="section__mark ui">UI Design</span>
+                    <span class="section__mark seo">SEO</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="./assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    SaaS Gestão para Salões de Beleza
+                    <span class="emphasis">Corta Cabelo</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark node">Node.js</span>
+                    <span class="section__mark react">React</span>
+                    <span class="section__mark vite">Vite</span>
+                    <span class="section__mark express">Express</span>
+                    <span class="section__mark mysql">MySQL</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="./assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Cardápio Digital Inteligente
+                    <span class="emphasis">Grab Eats</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark php">PHP</span>
+                    <span class="section__mark javascript">JavaScript</span>
+                    <span class="section__mark mysql">MySQL</span>
+                  </p>
+                </article>
+              </div>
             </div>
+          </div>
+          <div class="container">
+            <section class="background">
+              <!-- modals -->
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Sistema de Aluguel de Cruzeiros, Turquia</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>
+                        Date Picker com Moment JS, HTML, CSS & BootStrap 5
+                      </h3>
+                      <img
+                        src="./assets/images/modal-1.png"
+                        alt="portfólio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>Visualizar projeto</span>
+                        </a>
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>Ver no Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Sistema de Aluguel de Cruzeiros</h3>
+                        <img src="#" alt="zoe yacht" class="zoe yacht" />
+                      </header>
+                      <p>
+                        Date Picker Sistema Front-End de Aluguel de Cruzeiros
+                        com Moment JS para uma impresa na Turquia, chamada Zoe
+                        Yacht. O projeto envolveu muitas horas, mas está ainda
+                        no ar no site da empresa www.zoeyacht.com/rent.
+                      </p>
+                      <h4>Tecnologias Utilizadas</h4>
+                      <ul>
+                        <li>● JavaScript (Moment JS)</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                        <li>● UI Design</li>
+                        <li>● BootStrap 5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Biblioteca Reutilizável Date Picker</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>
+                        Date Picker com Moment JS, HTML, CSS & BootStrap 5
+                      </h3>
+                      <img
+                        src="./assets/images/modal-1.png"
+                        alt="portfólio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>Visualizar projeto</span>
+                        </a>
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>Ver no Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Sistema de Aluguel de Cruzeiros</h3>
+                        <img src="#" alt="zoe yacht" class="zoe yacht" />
+                      </header>
+                      <p>
+                        Date Picker Sistema Front-End de Aluguel de Cruzeiros
+                        com Moment JS para uma impresa na Turquia, chamada Zoe
+                        Yacht. O projeto envolveu muitas horas, mas está ainda
+                        no ar no site da empresa www.zoeyacht.com/rent.
+                      </p>
+                      <h4>Tecnologias Utilizadas</h4>
+                      <ul>
+                        <li>● JavaScript (Moment JS)</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                        <li>● UI Design</li>
+                        <li>● BootStrap 5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Aplicativo Android de Criação de Fichas</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>
+                        Date Picker com Moment JS, HTML, CSS & BootStrap 5
+                      </h3>
+                      <img
+                        src="./assets/images/modal-1.png"
+                        alt="portfólio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>Visualizar projeto</span>
+                        </a>
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>Ver no Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Sistema de Aluguel de Cruzeiros</h3>
+                        <img src="#" alt="zoe yacht" class="zoe yacht" />
+                      </header>
+                      <p>
+                        Date Picker Sistema Front-End de Aluguel de Cruzeiros
+                        com Moment JS para uma impresa na Turquia, chamada Zoe
+                        Yacht. O projeto envolveu muitas horas, mas está ainda
+                        no ar no site da empresa www.zoeyacht.com/rent.
+                      </p>
+                      <h4>Tecnologias Utilizadas</h4>
+                      <ul>
+                        <li>● JavaScript (Moment JS)</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                        <li>● UI Design</li>
+                        <li>● BootStrap 5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Ficha Vermelha Auto Calculável</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>
+                        Date Picker com Moment JS, HTML, CSS & BootStrap 5
+                      </h3>
+                      <img
+                        src="./assets/images/modal-1.png"
+                        alt="portfólio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>Visualizar projeto</span>
+                        </a>
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>Ver no Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Sistema de Aluguel de Cruzeiros</h3>
+                        <img src="#" alt="zoe yacht" class="zoe yacht" />
+                      </header>
+                      <p>
+                        Date Picker Sistema Front-End de Aluguel de Cruzeiros
+                        com Moment JS para uma impresa na Turquia, chamada Zoe
+                        Yacht. O projeto envolveu muitas horas, mas está ainda
+                        no ar no site da empresa www.zoeyacht.com/rent.
+                      </p>
+                      <h4>Tecnologias Utilizadas</h4>
+                      <ul>
+                        <li>● JavaScript (Moment JS)</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                        <li>● UI Design</li>
+                        <li>● BootStrap 5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Saas Gestão para Salões de Beleza</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>
+                        Date Picker com Moment JS, HTML, CSS & BootStrap 5
+                      </h3>
+                      <img
+                        src="./assets/images/modal-1.png"
+                        alt="portfólio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>Visualizar projeto</span>
+                        </a>
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>Ver no Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Sistema de Aluguel de Cruzeiros</h3>
+                        <img src="#" alt="zoe yacht" class="zoe yacht" />
+                      </header>
+                      <p>
+                        Date Picker Sistema Front-End de Aluguel de Cruzeiros
+                        com Moment JS para uma impresa na Turquia, chamada Zoe
+                        Yacht. O projeto envolveu muitas horas, mas está ainda
+                        no ar no site da empresa www.zoeyacht.com/rent.
+                      </p>
+                      <h4>Tecnologias Utilizadas</h4>
+                      <ul>
+                        <li>● JavaScript (Moment JS)</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                        <li>● UI Design</li>
+                        <li>● BootStrap 5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Cardápio Digital Inteligente</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>
+                        Date Picker com Moment JS, HTML, CSS & BootStrap 5
+                      </h3>
+                      <img
+                        src="./assets/images/modal-1.png"
+                        alt="portfólio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>Visualizar projeto</span>
+                        </a>
+                        <a class="modal__button" href="#"
+                          ><img
+                            src="./assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>Ver no Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Sistema de Aluguel de Cruzeiros</h3>
+                        <img src="#" alt="zoe yacht" class="zoe yacht" />
+                      </header>
+                      <p>
+                        Date Picker Sistema Front-End de Aluguel de Cruzeiros
+                        com Moment JS para uma impresa na Turquia, chamada Zoe
+                        Yacht. O projeto envolveu muitas horas, mas está ainda
+                        no ar no site da empresa www.zoeyacht.com/rent.
+                      </p>
+                      <h4>Tecnologias Utilizadas</h4>
+                      <ul>
+                        <li>● JavaScript (Moment JS)</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                        <li>● UI Design</li>
+                        <li>● BootStrap 5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </section>
+      </div>
+      <!-- what I do -->
+      <div class="wrapper__content">
+        <section class="section" id="i-do">
+          <div class="container column">
+            <h2 class="section__title">Especialidades</h2>
             <div class="section__cards">
-              <article class="section__card open-modal">
+              <article class="section__card">
                 <img
-                  src="./assets/images/portfolio-1.jpg"
-                  alt="portfolio"
-                  class="section__image"
+                  class="section__icon"
+                  src="./assets/icons/ux.svg"
+                  alt="UI/UX Design e Web Design"
                 />
-                <h3>
-                  Ficha Vermelha Auto Calculável
-                  <span class="emphasis">D&D 5e</span>
-                </h3>
-                <p>
-                  <span class="section__mark javascript">JavaScript</span>
-                  <span class="section__mark ui">UI Design</span>
-                  <span class="section__mark seo">SEO</span>
-                </p>
+                <h3 class="color">UI/UX Design</h3>
+                <ul class="section__list">
+                  <li>⇛ Prototipagem Alta Fidelidade (Figma)</li>
+                  <li>⇛ Identidade Visual e Branding</li>
+                  <li>⇛ Usabilidade e Conversão</li>
+                  <li>⇛ Design Systems</li>
+                </ul>
               </article>
-              <article class="section__card open-modal">
+              <article class="section__card">
                 <img
-                  src="./assets/images/portfolio-1.jpg"
-                  alt="portfolio"
-                  class="section__image"
+                  class="section__icon"
+                  src="./assets/icons/developer.svg"
+                  alt="Front-End & Back-End Development"
                 />
-                <h3>
-                  SaaS Gestão para Salões de Beleza
-                  <span class="emphasis">Corta Cabelo</span>
-                </h3>
-                <p>
-                  <span class="section__mark node">Node.js</span>
-                  <span class="section__mark react">React</span>
-                  <span class="section__mark vite">Vite</span>
-                  <span class="section__mark express">Express</span>
-                  <span class="section__mark mysql">MySQL</span>
-                </p>
+                <h3 class="color">Development</h3>
+                <ul class="section__list">
+                  <li>⇛ Front-End com Vue.js e React</li>
+                  <li>⇛ Bancos de dados relacionais</li>
+                  <li>⇛ Código escalável e padronizado</li>
+                  <li>⇛ APIs e back-end em Node.js</li>
+                </ul>
               </article>
-              <article class="section__card open-modal">
+              <article class="section__card">
                 <img
-                  src="./assets/images/portfolio-1.jpg"
-                  alt="portfolio"
-                  class="section__image"
+                  class="section__icon"
+                  src="./assets/icons/search.svg"
+                  alt="profissional em SEO (search engine optization)"
                 />
-                <h3>
-                  Cardápio Digital Inteligente
-                  <span class="emphasis">Grab Eats</span>
-                </h3>
-                <p>
-                  <span class="section__mark php">PHP</span>
-                  <span class="section__mark javascript">JavaScript</span>
-                  <span class="section__mark mysql">MySQL</span>
-                </p>
+                <h3 class="color">SEO</h3>
+                <ul class="section__list">
+                  <li>⇛ Otimização de carregamento</li>
+                  <li>⇛ SEO On-Page e HTML5 semântico</li>
+                  <li>⇛ Práticas de acessibilidade web</li>
+                  <li>⇛ Deploy e configuração de Search Console</li>
+                </ul>
               </article>
             </div>
           </div>
-        </div>
-        <div class="container">
-          <section class="background">
-            <!-- modals -->
-            <article class="modal">
-              <div class="modal__container">
-                <header>
-                  <h2>Sistema de Aluguel de Cruzeiros, Turquia</h2>
-                  <div class="close-modal">✖</div>
-                </header>
-                <div class="modal__body">
-                  <div class="modal__image">
-                    <h3>Date Picker com Moment JS, HTML, CSS & BootStrap 5</h3>
-                    <img
-                      src="./assets/images/modal-1.png"
-                      alt="portfólio 1 webp"
-                      class="modal__img"
-                    />
-                    <div class="modal__buttons">
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="link icon svg"
-                          class="modal__icon"
-                        /><span>Visualizar projeto</span>
-                      </a>
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="github icon svg"
-                          class="modal__icon"
-                        /><span>Ver no Github</span></a
-                      >
-                    </div>
-                  </div>
-                  <div class="modal__text">
-                    <header>
-                      <h3>Sistema de Aluguel de Cruzeiros</h3>
-                      <img src="#" alt="zoe yacht" class="zoe yacht" />
-                    </header>
-                    <p>
-                      Date Picker Sistema Front-End de Aluguel de Cruzeiros com
-                      Moment JS para uma impresa na Turquia, chamada Zoe Yacht.
-                      O projeto envolveu muitas horas, mas está ainda no ar no
-                      site da empresa www.zoeyacht.com/rent.
-                    </p>
-                    <h4>Tecnologias Utilizadas</h4>
-                    <ul>
-                      <li>● JavaScript (Moment JS)</li>
-                      <li>● HTML</li>
-                      <li>● CSS</li>
-                      <li>● UI Design</li>
-                      <li>● BootStrap 5</li>
-                    </ul>
-                  </div>
-                </div>
+        </section>
+      </div>
+      <!-- skills -->
+      <div class="wrapper__content">
+        <section class="section" id="skills">
+          <div class="container column">
+            <h2 class="section__title">Conhecimentos</h2>
+            <div class="section__bars">
+              <div class="section__bar">
+                <div class="section__skill">Web Design</div>
+                <div class="section__value">65%</div>
               </div>
-            </article>
-            <article class="modal">
-              <div class="modal__container">
-                <header>
-                  <h2>Biblioteca Reutilizável Date Picker</h2>
-                  <div class="close-modal">✖</div>
-                </header>
-                <div class="modal__body">
-                  <div class="modal__image">
-                    <h3>Date Picker com Moment JS, HTML, CSS & BootStrap 5</h3>
-                    <img
-                      src="./assets/images/modal-1.png"
-                      alt="portfólio 1 webp"
-                      class="modal__img"
-                    />
-                    <div class="modal__buttons">
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="link icon svg"
-                          class="modal__icon"
-                        /><span>Visualizar projeto</span>
-                      </a>
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="github icon svg"
-                          class="modal__icon"
-                        /><span>Ver no Github</span></a
-                      >
-                    </div>
-                  </div>
-                  <div class="modal__text">
-                    <header>
-                      <h3>Sistema de Aluguel de Cruzeiros</h3>
-                      <img src="#" alt="zoe yacht" class="zoe yacht" />
-                    </header>
-                    <p>
-                      Date Picker Sistema Front-End de Aluguel de Cruzeiros com
-                      Moment JS para uma impresa na Turquia, chamada Zoe Yacht.
-                      O projeto envolveu muitas horas, mas está ainda no ar no
-                      site da empresa www.zoeyacht.com/rent.
-                    </p>
-                    <h4>Tecnologias Utilizadas</h4>
-                    <ul>
-                      <li>● JavaScript (Moment JS)</li>
-                      <li>● HTML</li>
-                      <li>● CSS</li>
-                      <li>● UI Design</li>
-                      <li>● BootStrap 5</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="section__bar">
+                <div class="section__skill">HTML/CSS</div>
+                <div class="section__value">95%</div>
               </div>
-            </article>
-            <article class="modal">
-              <div class="modal__container">
-                <header>
-                  <h2>Aplicativo Android de Criação de Fichas</h2>
-                  <div class="close-modal">✖</div>
-                </header>
-                <div class="modal__body">
-                  <div class="modal__image">
-                    <h3>Date Picker com Moment JS, HTML, CSS & BootStrap 5</h3>
-                    <img
-                      src="./assets/images/modal-1.png"
-                      alt="portfólio 1 webp"
-                      class="modal__img"
-                    />
-                    <div class="modal__buttons">
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="link icon svg"
-                          class="modal__icon"
-                        /><span>Visualizar projeto</span>
-                      </a>
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="github icon svg"
-                          class="modal__icon"
-                        /><span>Ver no Github</span></a
-                      >
-                    </div>
-                  </div>
-                  <div class="modal__text">
-                    <header>
-                      <h3>Sistema de Aluguel de Cruzeiros</h3>
-                      <img src="#" alt="zoe yacht" class="zoe yacht" />
-                    </header>
-                    <p>
-                      Date Picker Sistema Front-End de Aluguel de Cruzeiros com
-                      Moment JS para uma impresa na Turquia, chamada Zoe Yacht.
-                      O projeto envolveu muitas horas, mas está ainda no ar no
-                      site da empresa www.zoeyacht.com/rent.
-                    </p>
-                    <h4>Tecnologias Utilizadas</h4>
-                    <ul>
-                      <li>● JavaScript (Moment JS)</li>
-                      <li>● HTML</li>
-                      <li>● CSS</li>
-                      <li>● UI Design</li>
-                      <li>● BootStrap 5</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="section__bar">
+                <div class="section__skill">JavaScript</div>
+                <div class="section__value">80%</div>
               </div>
-            </article>
-            <article class="modal">
-              <div class="modal__container">
-                <header>
-                  <h2>Ficha Vermelha Auto Calculável</h2>
-                  <div class="close-modal">✖</div>
-                </header>
-                <div class="modal__body">
-                  <div class="modal__image">
-                    <h3>Date Picker com Moment JS, HTML, CSS & BootStrap 5</h3>
-                    <img
-                      src="./assets/images/modal-1.png"
-                      alt="portfólio 1 webp"
-                      class="modal__img"
-                    />
-                    <div class="modal__buttons">
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="link icon svg"
-                          class="modal__icon"
-                        /><span>Visualizar projeto</span>
-                      </a>
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="github icon svg"
-                          class="modal__icon"
-                        /><span>Ver no Github</span></a
-                      >
-                    </div>
-                  </div>
-                  <div class="modal__text">
-                    <header>
-                      <h3>Sistema de Aluguel de Cruzeiros</h3>
-                      <img src="#" alt="zoe yacht" class="zoe yacht" />
-                    </header>
-                    <p>
-                      Date Picker Sistema Front-End de Aluguel de Cruzeiros com
-                      Moment JS para uma impresa na Turquia, chamada Zoe Yacht.
-                      O projeto envolveu muitas horas, mas está ainda no ar no
-                      site da empresa www.zoeyacht.com/rent.
-                    </p>
-                    <h4>Tecnologias Utilizadas</h4>
-                    <ul>
-                      <li>● JavaScript (Moment JS)</li>
-                      <li>● HTML</li>
-                      <li>● CSS</li>
-                      <li>● UI Design</li>
-                      <li>● BootStrap 5</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="section__bar">
+                <div class="section__skill">React JS</div>
+                <div class="section__value">70%</div>
               </div>
-            </article>
-            <article class="modal">
-              <div class="modal__container">
-                <header>
-                  <h2>Saas Gestão para Salões de Beleza</h2>
-                  <div class="close-modal">✖</div>
-                </header>
-                <div class="modal__body">
-                  <div class="modal__image">
-                    <h3>Date Picker com Moment JS, HTML, CSS & BootStrap 5</h3>
-                    <img
-                      src="./assets/images/modal-1.png"
-                      alt="portfólio 1 webp"
-                      class="modal__img"
-                    />
-                    <div class="modal__buttons">
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="link icon svg"
-                          class="modal__icon"
-                        /><span>Visualizar projeto</span>
-                      </a>
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="github icon svg"
-                          class="modal__icon"
-                        /><span>Ver no Github</span></a
-                      >
-                    </div>
-                  </div>
-                  <div class="modal__text">
-                    <header>
-                      <h3>Sistema de Aluguel de Cruzeiros</h3>
-                      <img src="#" alt="zoe yacht" class="zoe yacht" />
-                    </header>
-                    <p>
-                      Date Picker Sistema Front-End de Aluguel de Cruzeiros com
-                      Moment JS para uma impresa na Turquia, chamada Zoe Yacht.
-                      O projeto envolveu muitas horas, mas está ainda no ar no
-                      site da empresa www.zoeyacht.com/rent.
-                    </p>
-                    <h4>Tecnologias Utilizadas</h4>
-                    <ul>
-                      <li>● JavaScript (Moment JS)</li>
-                      <li>● HTML</li>
-                      <li>● CSS</li>
-                      <li>● UI Design</li>
-                      <li>● BootStrap 5</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="section__bar">
+                <div class="section__skill">Angular Js</div>
+                <div class="section__value">60%</div>
               </div>
-            </article>
-            <article class="modal">
-              <div class="modal__container">
-                <header>
-                  <h2>Cardápio Digital Inteligente</h2>
-                  <div class="close-modal">✖</div>
-                </header>
-                <div class="modal__body">
-                  <div class="modal__image">
-                    <h3>Date Picker com Moment JS, HTML, CSS & BootStrap 5</h3>
-                    <img
-                      src="./assets/images/modal-1.png"
-                      alt="portfólio 1 webp"
-                      class="modal__img"
-                    />
-                    <div class="modal__buttons">
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="link icon svg"
-                          class="modal__icon"
-                        /><span>Visualizar projeto</span>
-                      </a>
-                      <a class="modal__button" href="#"
-                        ><img
-                          src="./assets/icons/github.svg"
-                          alt="github icon svg"
-                          class="modal__icon"
-                        /><span>Ver no Github</span></a
-                      >
-                    </div>
-                  </div>
-                  <div class="modal__text">
-                    <header>
-                      <h3>Sistema de Aluguel de Cruzeiros</h3>
-                      <img src="#" alt="zoe yacht" class="zoe yacht" />
-                    </header>
-                    <p>
-                      Date Picker Sistema Front-End de Aluguel de Cruzeiros com
-                      Moment JS para uma impresa na Turquia, chamada Zoe Yacht.
-                      O projeto envolveu muitas horas, mas está ainda no ar no
-                      site da empresa www.zoeyacht.com/rent.
-                    </p>
-                    <h4>Tecnologias Utilizadas</h4>
-                    <ul>
-                      <li>● JavaScript (Moment JS)</li>
-                      <li>● HTML</li>
-                      <li>● CSS</li>
-                      <li>● UI Design</li>
-                      <li>● BootStrap 5</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="section__bar">
+                <div class="section__skill">Bootstrap</div>
+                <div class="section__value">99%</div>
               </div>
-            </article>
-          </section>
-        </div>
-      </section>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- footer -->
+      <footer id="footer" class="footer">
+        <p>
+          <span
+            >Copyright &copy; 2026 Johnny. Todos os Direitos Reservados.</span
+          >
+          <a href="#">Voltar ao topo</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
