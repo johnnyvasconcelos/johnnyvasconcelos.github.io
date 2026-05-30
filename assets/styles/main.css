@@ -969,4 +969,7 @@ h1 {
   .section {
     padding: 50px 0;
   }
+  .footer p {
+    font-size: 14px;
+  }
 }
