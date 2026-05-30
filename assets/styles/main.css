@@ -18,6 +18,7 @@
 /* variables */
 :root {
   --border: #5a5a5a;
+  --border-transparency: #5a5a5a5c;
   --dark: #131315;
   --alternative-dark: #212529;
   --light: #fefefe;
@@ -728,7 +729,7 @@ h1 {
 .section__scores {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 15px;
   margin-top: 60px;
   width: 100%;
 }
@@ -738,6 +739,11 @@ h1 {
   gap: 5px;
   justify-content: center;
   align-items: center;
+  border-right: 1px solid var(--border-transparency);
+  width: 25%;
+}
+.section__score:nth-of-type(4) {
+  border: none;
 }
 .section__number {
   font-size: 35px;
@@ -837,6 +843,11 @@ h1 {
   .section__scores {
     flex-direction: column;
   }
+  .section__score {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+  }
 }
 @media (max-width: 480px) {
   .container {
@@ -856,6 +867,9 @@ h1 {
   }
   h1 {
     font-size: 26px;
+  }
+  p {
+    font-size: 16px;
   }
   .section {
     margin-top: 50px;
