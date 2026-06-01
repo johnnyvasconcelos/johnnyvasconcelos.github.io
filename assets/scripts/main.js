@@ -27,17 +27,18 @@
     }, 800);
   }
   // mobile menu
+  const body = document.querySelector("body");
   const mobileBtn = document.querySelector(".menu__button");
   const mobileMenu = document.querySelector(".menu__mobile");
   mobileBtn.addEventListener("click", () => {
     mobileMenu.classList.add("show");
+    body.classList.add("overflow");
   });
   // portfolio modal
   const modalBtn = document.querySelectorAll(".open-modal");
   const modal = document.querySelectorAll(".modal");
   const background = document.querySelector(".background");
   const closeModal = document.querySelectorAll(".close-modal");
-  const body = document.querySelector("body");
   for (let i = 0; i < modal.length; i++) {
     modalBtn[i].addEventListener("click", () => {
       for (let a = 0; a < modal.length; a++) {
