@@ -560,6 +560,25 @@ h1 {
   z-index: 75;
   opacity: 1;
 }
+.arrow {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  padding: 0 40px;
+}
+.arrow.arrow-left {
+  left: 0;
+}
+.arrow.arrow-right {
+  right: 0;
+}
+.arrow img {
+  width: 30px;
+  filter: invert(1);
+}
 .modal {
   position: fixed;
   top: 50%;
@@ -914,7 +933,8 @@ h1 {
   }
 }
 @media (max-width: 767px) {
-  .main-header__socials {
+  .main-header__socials,
+  .arrow {
     display: none;
   }
   body,
