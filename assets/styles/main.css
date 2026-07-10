@@ -788,10 +788,11 @@ h1 {
   border: none;
 }
 .section__number {
-  font-size: 35px;
-  font-weight: 700;
-  color: var(--green);
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--light);
 }
+/*
 .section__score:nth-of-type(1) .section__number {
   color: #f2d838;
 }
@@ -804,6 +805,7 @@ h1 {
 .section__score:nth-of-type(4) .section__number {
   color: #58c2f0;
 }
+*/
 .section__score p {
   color: var(--gray);
   font-weight: 300;
@@ -879,6 +881,7 @@ h1 {
 }
 .footer p {
   color: var(--border);
+  font-size: 12px;
 }
 /* responsive settings */
 @media (max-width: 1100px) {
