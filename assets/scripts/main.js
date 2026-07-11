@@ -30,9 +30,21 @@
   const body = document.querySelector("body");
   const mobileBtn = document.querySelector(".menu__button");
   const mobileMenu = document.querySelector(".menu__mobile");
+  const menuItem = document.querySelectorAll(".menu__link");
+  const closeMenu = document.querySelector(".close__menu");
   mobileBtn.addEventListener("click", () => {
     mobileMenu.classList.add("show");
     body.classList.add("overflow");
+  });
+  menuItem.forEach((item) => {
+    item.addEventListener("click", () => {
+      mobileMenu.classList.remove("show");
+      body.classList.remove("overflow");
+    });
+  });
+  closeMenu.addEventListener("click", function () {
+    mobileMenu.classList.remove("show");
+    body.classList.remove("overflow");
   });
   // portfolio modal
   const modalBtn = document.querySelectorAll(".open-modal");
