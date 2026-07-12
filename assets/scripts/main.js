@@ -1,8 +1,19 @@
 {
   // dark mode
   const darkBtn = document.querySelector(".menu__dark");
+  if (localStorage.getItem("theme") === "light") {
+    document.body.classList.add("dark");
+    darkBtn.classList.add("white-mode");
+  }
   darkBtn.addEventListener("click", () => {
     darkBtn.classList.toggle("white-mode");
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+      localStorage.setItem("theme", "light");
+    } else {
+      localStorage.setItem("theme", "dark");
+    }
   });
   // h1 typing
   const letters = document.querySelector(".thin");
