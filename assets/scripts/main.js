@@ -17,7 +17,7 @@
   });
   // h1 typing
   const letters = document.querySelector(".thin");
-  const phrase = "performance e SEO";
+  const phrase = "performance & SEO";
   const phraseArray = phrase.split("");
   letters.textContent = "";
   let i = 0;

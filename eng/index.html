@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Brazilian Front and Back-End Developer with international experience. JavaScript, React, MySQL. Check out my projects!"
+    />
+    <meta
+      name="keywords"
+      content="front-end developer, back-end developer, front and back-end developer, junior developer, mid-level developer, back-end programmer, front-end programmer"
+    />
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <link href="../assets/images/favicon.ico" type="image/x-icon" />
+    <script src="../assets/scripts/main.js" defer></script>
+    <title>Johnny Vasconcelos - Front and Backend Developer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <div class="wrapper__content">
+        <header id="head">
+          <!-- navbar -->
+          <nav class="menu">
+            <div class="container">
+              <div class="menu__main">
+                <a href="../index.html" class="menu__logo"
+                  ><img
+                    src="../assets/images/logo.webp"
+                    alt="logo johnny vasconcelos front e back-end developer"
+                    class="menu__image"
+                /></a>
+                <ul class="menu__items">
+                  <li class="menu__item">
+                    <a href="#home" class="menu__link">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#sobre" class="menu__link">About</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#portfolio" class="menu__link">Portfolio</a>
+                  </li>
+                  <li class="menu__item">
+                    <a
+                      target="_blank"
+                      href="https://wa.me/5518997826451"
+                      class="menu__link"
+                      >Contact</a
+                    >
+                  </li>
+                  <li class="menu__item">
+                    <a href="#idioma" class="menu__link"
+                      >Language<img
+                        src="../assets/icons/caret-white.svg"
+                        class="caret"
+                        alt="caret arrow"
+                    /></a>
+                    <ul class="menu__submenu">
+                      <li>
+                        <a href="./eng/"
+                          ><img
+                            src="../assets/images/eng.webp"
+                            alt="america flag"
+                          />ENG</a
+                        >
+                      </li>
+                      <li>
+                        <a href="../index.html"
+                          ><img
+                            src="../assets/images/ptbr.webp"
+                            alt="brazil flag"
+                          />PTBR</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu__dark">
+                <img
+                  src="../assets/icons/moon.svg"
+                  alt="dark mode svg"
+                  class="menu__moon"
+                />
+              </div>
+              <div class="menu__button">
+                <img
+                  src="../assets/icons/menu.svg"
+                  alt="bars menu svg"
+                  class="menu__bars"
+                />
+              </div>
+            </div>
+          </nav>
+          <nav class="menu__mobile">
+            <div class="container column">
+              <div class="close__menu">
+                <img src="../assets/icons/close.svg" alt="close icon svg" />
+              </div>
+              <img
+                src="../assets/images/logo.webp"
+                alt="Johnny Vasconcelos Web Developer."
+                class="menu__logo"
+              />
+              <ul>
+                <li class="menu__item">
+                  <a href="#home" class="menu__link active">
+                    <img
+                      src="../assets/icons/home.svg"
+                      class="icon"
+                      alt="home icon svg"
+                    />
+                    <span>Home</span></a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#sobre" class="menu__link">
+                    <img
+                      class="icon"
+                      src="../assets/icons/user.svg"
+                      alt="user icon svg"
+                    /><span>About</span></a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#portfolio" class="menu__link">
+                    <img
+                      class="icon"
+                      src="../assets/icons/gallery.svg"
+                      alt="gallery icon svg"
+                    /><span>Portfolio</span></a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#contato" class="menu__link">
+                    <img
+                      class="icon"
+                      src="../assets/icons/phone.svg"
+                      alt="phone icon"
+                    /><span>Contact</span></a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#idioma" class="menu__link"
+                    ><img
+                      src="../assets/icons/language.svg"
+                      class="icon"
+                      alt="language icon svg" /><span>Language</span
+                    ><img
+                      src="../assets/icons/caret-white.svg"
+                      class="caret"
+                      alt="caret arrow"
+                  /></a>
+                  <ul class="menu__submenu">
+                    <li>
+                      <a href="../eng/index.html"
+                        ><img
+                          src="../assets/images/eng.webp"
+                          alt="america flag"
+                        />ENG</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../index.html"
+                        ><img
+                          src="../assets/images/ptbr.webp"
+                          alt="brazil flag"
+                        />PTBR</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="menu__socials">
+                <a
+                  target="_blank"
+                  href="https://github.com/johnnyvasconcelos"
+                  class="menu__social"
+                >
+                  <img src="../assets/icons/github.svg" alt="github icon svg" />
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jhonatan-vasconcelos-791985277/"
+                  class="menu__social"
+                >
+                  <img
+                    src="../assets/icons/linkedin.svg"
+                    alt="linkedin icon svg"
+                  />
+                </a>
+                <a
+                  href="https://wa.me/5518997826451"
+                  target="_blank"
+                  class="menu__social"
+                >
+                  <img
+                    src="../assets/icons/whatsapp.svg"
+                    alt="whatsapp icon svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </nav>
+          <div class="main-header" id="home">
+            <div class="container">
+              <div class="main-header__title">
+                <h1>
+                  Front and Back-End Developer focused on
+                  <span class="thin">performance and SEO</span>
+                </h1>
+                <div class="main-header__buttons">
+                  <a
+                    target="_blank"
+                    href="https://wa.me/5518997826451"
+                    class="main-header__btn"
+                    ><span>Contact</span>
+                    <span class="icon"
+                      ><img
+                        class="main-header__icon"
+                        src="../assets/icons/support.svg"
+                        alt="johnny vasconcelos contact" /></span
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="../assets/docs/more-info.pdf"
+                    class="main-header__btn"
+                    ><span>Download CV</span>
+                    <span class="icon"
+                      ><img
+                        class="main-header__icon"
+                        src="../assets/icons/code.svg"
+                        alt="johnny vasconcelos portfolio" /></span
+                  ></a>
+                </div>
+              </div>
+              <div class="main-header__social">
+                <div class="main-header__socials">
+                  <a
+                    href="https://www.linkedin.com/in/jhonatan-vasconcelos-791985277/"
+                    target="_blank"
+                    class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="../assets/icons/linkedin.svg"
+                      alt="linkedin"
+                  /></a>
+                  <a
+                    href="https://github.com/johnnyvasconcelos"
+                    target="_blank"
+                    class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="../assets/icons/github.svg"
+                      alt="github"
+                  /></a>
+                  <a
+                    target="_blank"
+                    href="https://wa.me/5518997826451"
+                    class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="../assets/icons/whatsapp.svg"
+                      alt="whatsapp"
+                  /></a>
+                  <a href="#" class="main-header__social-link"
+                    ><img
+                      class="main-header__social-icon"
+                      src="../assets/icons/envelope.svg"
+                      alt="email"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      <!-- who I am -->
+      <div class="wrapper__content">
+        <section class="section" id="about">
+          <div class="container column">
+            <h2 class="section__title">About Me</h2>
+            <div class="section__areas">
+              <div class="section__text">
+                <h3>
+                  I am <span>Johnny Vasconcelos</span> Full-Stack Developer
+                </h3>
+                <p>
+                  I work as a web developer with experience in the international
+                  market, having delivered projects for more than 8 countries. I
+                  manage the complete development lifecycle (Design, Front,
+                  Back-End, and SEO) and am available for both freelance
+                  development contracts and full-time employment opportunities.
+                </p>
+              </div>
+              <div class="section__info">
+                <ul>
+                  <li><b>Name:</b> Johnny Vasconcelos</li>
+                  <li title="jvasconcelosbittencourt@gmail.com">
+                    <b>Email:</b>
+                    <a href="mailto:jvasconcelosbittencourt@gmail.com"
+                      >jvasconcelos<wbr />bittencourt</a
+                    >
+                  </li>
+                  <li><b>Age:</b> 30</li>
+                  <li><b>Location:</b> São Paulo, Brazil</li>
+                </ul>
+                <a
+                  target="_blank"
+                  href="../assets/docs/more-info.pdf"
+                  class="section__button"
+                  ><img
+                    class="main-header__icon"
+                    src="../assets/icons/code.svg"
+                    alt="johnny vasconcelos portfolio"
+                  /><span>Download CV</span></a
+                >
+              </div>
+            </div>
+            <div class="section__scores">
+              <div class="section__score">
+                <span class="section__number">6+</span>
+                <p>Years of Experience</p>
+              </div>
+              <div class="section__score">
+                <span class="section__number">150+</span>
+                <p>Pages in 1st Position</p>
+              </div>
+              <div class="section__score">
+                <span class="section__number">320+</span>
+                <p>Completed Projects</p>
+              </div>
+              <div class="section__score">
+                <span class="section__number">20+</span>
+                <p>Technologies Used</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- portfolio -->
+      <div class="wrapper__content">
+        <section class="section" id="portfolio">
+          <div class="container column">
+            <h2 class="section__title">Featured Projects</h2>
+            <div class="section__area">
+              <div class="section__cards">
+                <article class="section__card open-modal">
+                  <img
+                    src="../assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Cruise Rental System, Turkey
+                    <span class="emphasis">Zoe Yacht</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark html">HTML</span>
+                    <span class="section__mark css">CSS</span>
+                    <span class="section__mark bootstrap">BootStrap 5</span>
+                    <span class="section__mark javascript">JavaScript</span>
+                    <span class="section__mark library">Moment JS</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="../assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    PHP Website with Admin Dashboard
+                    <span class="emphasis">C. Moraes</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark php">PHP</span>
+                    <span class="section__mark mysql">MySQL</span>
+                    <span class="section__mark javascript">JavaScript</span>
+                    <span class="section__mark ui">Ui Design</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="../assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Barbershop System with Next.js
+                    <span class="emphasis">Barbershop</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark react-native">React</span>
+                    <span class="section__mark expo">Next.js</span>
+                    <span class="section__mark mysql">PostgreSQL</span>
+                    <span class="section__mark node">Node.js</span>
+                    <span class="section__mark express">Prisma</span>
+                    <span class="section__mark css">Tailwind CSS</span>
+                  </p>
+                </article>
+              </div>
+              <div class="section__cards">
+                <article class="section__card open-modal">
+                  <img
+                    src="../assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Barbershop Management
+                    <span class="emphasis">PrimeBarber</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark react">React</span>
+                    <span class="section__mark node">Node.js</span>
+                    <span class="section__mark express">Express</span>
+                    <span class="section__mark mysql">MySQL</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="../assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Darcy: Language Based on Emmet
+                    <span class="emphasis">Darcy</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark html">HTML</span>
+                    <span class="section__mark css">CSS</span>
+                    <span class="section__mark javascript">JavaScript</span>
+                  </p>
+                </article>
+                <article class="section__card open-modal">
+                  <img
+                    src="../assets/images/portfolio-1.jpg"
+                    alt="portfolio"
+                    class="section__image"
+                  />
+                  <h3>
+                    Culinary App with React Native
+                    <span class="emphasis">Culinary Converter</span>
+                  </h3>
+                  <p>
+                    <span class="section__mark php">React Native</span>
+                    <span class="section__mark javascript">Expo</span>
+                    <span class="section__mark ui">Ui Design</span>
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <section class="background">
+              <!-- arrows -->
+              <div class="arrow arrow-left">
+                <img
+                  src="../assets/icons/left.svg"
+                  alt="arrow left svg"
+                  class="arrow-left__icon"
+                />
+              </div>
+              <div class="arrow arrow-right">
+                <img
+                  src="../assets/icons/right.svg"
+                  alt="arrow right svg"
+                  class="arrow-right__icon"
+                />
+              </div>
+              <!-- modals -->
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Cruise Rental System, Turkey</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>
+                        Date Picker with Moment JS, HTML, CSS & BootStrap 5
+                      </h3>
+                      <img
+                        src="../assets/images/modal-1.png"
+                        alt="portfolio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a
+                          class="modal__button"
+                          href="https://secure2.bosphorusyacht.com/Client/TourSelect"
+                          target="_blank"
+                          ><img
+                            src="../assets/icons/link.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>View project</span>
+                        </a>
+                        <a
+                          class="modal__button"
+                          href="https://github.com/johnnyvasconcelos/Datepicker-com-Moment.js"
+                          target="_blank"
+                          ><img
+                            src="../assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>View on Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Cruise Rental System</h3>
+                        <!--<img src="#" alt="zoe yacht" class="zoe yacht" />-->
+                      </header>
+                      <p>
+                        Scratch development of a custom Date Picker system for
+                        the cruise rental platform of the Turkish company Zoe
+                        Yacht. The project involved complex frontend engineering
+                        using Moment.js — the market standard at the time — to
+                        manage business rules and availability.
+                      </p>
+                      <h4>Technologies Used</h4>
+                      <ul>
+                        <li>● JavaScript (Moment JS)</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                        <li>● UI Design</li>
+                        <li>● BootStrap 5</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>PHP Website with Admin Panel</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>PHP, MySQL, JavaScript & UI Design</h3>
+                      <img
+                        src="../assets/images/modal-3.webp"
+                        alt="portfolio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a
+                          class="modal__button"
+                          href="https://christianmoraes.com.br"
+                          target="_blank"
+                          ><img
+                            src="../assets/icons/link.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>View project</span>
+                        </a>
+                        <a
+                          class="modal__button"
+                          href="https://github.com/johnnyvasconcelos/CM-Singer"
+                          target="_blank"
+                          ><img
+                            src="../assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>View on Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Christian Singer Website</h3>
+                      </header>
+                      <p>
+                        Complete website for a Catholic singer featuring show
+                        schedules, photo and video galleries, a blog, and a
+                        login system with an administrative dashboard to manage
+                        all content.
+                      </p>
+                      <h4>Technologies Used</h4>
+                      <ul>
+                        <li>● PHP</li>
+                        <li>● MySQL</li>
+                        <li>● JavaScript</li>
+                        <li>● UI Design</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Barbershop System with Next.js</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>Barbershop System with Payment Gateway</h3>
+                      <img
+                        src="../assets/images/modal-2.webp"
+                        alt="portfolio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a
+                          class="modal__button"
+                          target="_blank"
+                          href="https://barbershop-tau-two.vercel.app/"
+                          ><img
+                            src="../assets/icons/link.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>View project</span>
+                        </a>
+                        <a
+                          class="modal__button"
+                          href="https://github.com/johnnyvasconcelos/barbershop"
+                          target="_blank"
+                          ><img
+                            src="../assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>View on Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Barbershop System with Next.js</h3>
+                      </header>
+                      <p>
+                        Barbershop scheduling system that connects clients to
+                        multiple establishments on a single platform. Developed
+                        with Next.js, React, Tailwind CSS, Prisma, and
+                        PostgreSQL, the system features Google login and
+                        integrated payments with Stripe, allowing users to
+                        choose a barbershop, select a haircut, and book their
+                        time slot.
+                      </p>
+                      <h4>Technologies Used</h4>
+                      <ul>
+                        <li>● React</li>
+                        <li>● Next.js</li>
+                        <li>● Tailwind CSS</li>
+                        <li>● UI Design</li>
+                        <li>● PostgreSQL</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Barbershop Management Dashboard</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>React, Node.js, Express & MySQL</h3>
+                      <img
+                        src="../assets/images/modal-4.webp"
+                        alt="portfolio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a
+                          class="modal__button"
+                          target="_blank"
+                          href="https://prime-barber.vercel.app/"
+                          ><img
+                            src="../assets/icons/link.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>View project</span>
+                        </a>
+                        <a
+                          class="modal__button"
+                          target="_blank"
+                          href="https://github.com/johnnyvasconcelos/Prime-Barber/"
+                          ><img
+                            src="../assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>View on Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Manage Barbershop</h3>
+                      </header>
+                      <p>
+                        Barbershop administration system that allows owners to
+                        manage their services, schedules, and clients, offering
+                        a user-friendly interface and simple functionalities.
+                      </p>
+                      <h4>Technologies Used</h4>
+                      <ul>
+                        <li>● React</li>
+                        <li>● Node.js</li>
+                        <li>● Express</li>
+                        <li>● MySQL</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Language Based on Emmet</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>Commands to build simple HTML elements</h3>
+                      <img
+                        src="../assets/images/modal-5.webp"
+                        alt="portfolio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a
+                          class="modal__button"
+                          target="_blank"
+                          href="https://darcy-zeta.vercel.app/"
+                          ><img
+                            src="../assets/icons/link.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>View project</span>
+                        </a>
+                        <a
+                          class="modal__button"
+                          target="_blank"
+                          href="https://github.com/johnnyvasconcelos/darcy-cli"
+                          ><img
+                            src="../assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>View on Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Simple Commands</h3>
+                      </header>
+                      <p>
+                        A language created by me based on Emmet's syntax, where
+                        you write a single line of structured shortcuts in the
+                        terminal to generate entire blocks of code at once.
+                        Instead of opening the editor and typing tag by tag, a
+                        logical expression displays the elements and hierarchy
+                        you want, and the CLI processes this instruction to
+                        create HTML and CSS files instantly.
+                      </p>
+                      <h4>Technologies Used</h4>
+                      <ul>
+                        <li>● JavaScript</li>
+                        <li>● HTML</li>
+                        <li>● CSS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="modal">
+                <div class="modal__container">
+                  <header>
+                    <h2>Culinary App with React Native</h2>
+                    <div class="close-modal">✖</div>
+                  </header>
+                  <div class="modal__body">
+                    <div class="modal__image">
+                      <h3>Culinary Measurement Converter</h3>
+                      <img
+                        src="../assets/images/modal-6.webp"
+                        alt="portfolio 1 webp"
+                        class="modal__img"
+                      />
+                      <div class="modal__buttons">
+                        <a
+                          class="modal__button"
+                          target="_blank"
+                          href="https://play.google.com/store/apps/details?id=com.johnnym01.appconversormedidas&hl=pt_BR"
+                          ><img
+                            src="../assets/icons/link.svg"
+                            alt="link icon svg"
+                            class="modal__icon"
+                          /><span>View project</span>
+                        </a>
+                        <a
+                          class="modal__button"
+                          target="_blank"
+                          href="https://github.com/johnnyvasconcelos/app-conversao-medidas-culinarias"
+                          ><img
+                            src="../assets/icons/github.svg"
+                            alt="github icon svg"
+                            class="modal__icon"
+                          /><span>View on Github</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="modal__text">
+                      <header>
+                        <h3>Made with React Native + Expo</h3>
+                      </header>
+                      <p>
+                        Culinary measurement converter app specially made to
+                        transform cups into tablespoons and other recipe
+                        proportions quickly. Developed purely with React Native
+                        and the Expo Library.
+                      </p>
+                      <h4>Technologies Used</h4>
+                      <ul>
+                        <li>● React Native</li>
+                        <li>● Expo</li>
+                        <li>● Ui Design</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </section>
+      </div>
+      <!-- what I do -->
+      <div class="wrapper__content">
+        <section class="section" id="i-do">
+          <div class="container column">
+            <h2 class="section__title">Specialties</h2>
+            <div class="section__cards">
+              <article class="section__card">
+                <img
+                  class="section__icon"
+                  src="../assets/icons/ux.svg"
+                  alt="UI/UX Design and Web Design"
+                />
+                <h3 class="color">UI/UX Design</h3>
+                <ul class="section__list">
+                  <li>⇛ High-Fidelity Prototyping (Figma)</li>
+                  <li>⇛ Visual Identity and Branding</li>
+                  <li>⇛ Usability and Conversion</li>
+                  <li>⇛ Design Systems</li>
+                </ul>
+              </article>
+              <article class="section__card">
+                <img
+                  class="section__icon"
+                  src="../assets/icons/developer.svg"
+                  alt="Front-End & Back-End Development"
+                />
+                <h3 class="color">Development</h3>
+                <ul class="section__list">
+                  <li>⇛ Front-End with Vue.js and React</li>
+                  <li>⇛ Relational databases</li>
+                  <li>⇛ Scalable and standardized code</li>
+                  <li>⇛ APIs and back-end in Node.js</li>
+                </ul>
+              </article>
+              <article class="section__card">
+                <img
+                  class="section__icon"
+                  src="../assets/icons/search.svg"
+                  alt="SEO professional (search engine optimization)"
+                />
+                <h3 class="color">SEO</h3>
+                <ul class="section__list">
+                  <li>⇛ Loading time optimization</li>
+                  <li>⇛ On-Page SEO and semantic HTML5</li>
+                  <li>⇛ Web accessibility practices</li>
+                  <li>⇛ Deployment and Search Console setup</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- skills -->
+      <div class="wrapper__content">
+        <section class="section" id="skills">
+          <div class="container column">
+            <h2 class="section__title">Skills</h2>
+            <div class="section__bars">
+              <div class="section__bar">
+                <div class="section__skill">Web Design</div>
+                <div class="section__value">65%</div>
+                <div class="section__grow"></div>
+              </div>
+              <div class="section__bar">
+                <div class="section__skill">HTML/CSS</div>
+                <div class="section__value">85%</div>
+                <div class="section__grow"></div>
+              </div>
+              <div class="section__bar">
+                <div class="section__skill">Vue JS</div>
+                <div class="section__value">65%</div>
+                <div class="section__grow"></div>
+              </div>
+              <div class="section__bar">
+                <div class="section__skill">React JS</div>
+                <div class="section__value">67%</div>
+                <div class="section__grow"></div>
+              </div>
+              <div class="section__bar">
+                <div class="section__skill">Node Js</div>
+                <div class="section__value">60%</div>
+                <div class="section__grow"></div>
+              </div>
+              <div class="section__bar">
+                <div class="section__skill">SEO</div>
+                <div class="section__value">69%</div>
+                <div class="section__grow"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- footer -->
+      <footer id="footer" class="footer">
+        <div class="containe">
+          <p>
+            <span>Copyright &copy; 2026 Johnny. All Rights Reserved.</span>
+            <a href="#">Back to top</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
